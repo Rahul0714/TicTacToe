@@ -123,7 +123,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[800],
+      backgroundColor: Colors.grey[900],
       body: Column(
         children: [
           Expanded(
@@ -186,7 +186,7 @@ class _HomePageState extends State<HomePage> {
                 Text("TiC-Tac-Toe", style: myFont),
                 Padding(
                   padding: const EdgeInsets.fromLTRB(0, 27, 0, 0),
-                  child: Text("@rahul0714", style: myName),
+                  child: Text("To Reset the Scorboard", style: myName),
                 ),
                 Padding(
                   padding: const EdgeInsets.fromLTRB(0, 21, 0, 0),
